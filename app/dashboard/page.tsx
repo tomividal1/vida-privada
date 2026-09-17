@@ -4,7 +4,7 @@ import Link from "next/link";
 import Vida3D from "../../components/Vida3D";
 import { useEffect, useMemo, useState } from "react";
 import { createClient } from "../lib/supabase";
-import Sidebar from "../../components/sidebar";
+import Sidebar from "../../components/Sidebar";
 
 type Movimiento = {
   tipo: "ingreso" | "gasto";
